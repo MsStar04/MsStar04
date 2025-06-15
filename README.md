@@ -1,16 +1,15 @@
 ## Hi there 👋
 
-<!--
-**MsStar04/MsStar04** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This repository contains small experiments. One useful utility is the
+`info_collector.py` script which acts as a minimal information collecting agent.
 
-Here are some ideas to get you started:
+### Using `info_collector.py`
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Run the script with one or more text files as arguments. It will read the
+content and print the most common words found:
+
+```bash
+python3 info_collector.py file1.txt file2.txt
+```
+
+This is a simple example of how an "AI agent" can gather information from files.
